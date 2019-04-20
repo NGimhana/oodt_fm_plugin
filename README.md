@@ -1,8 +1,5 @@
 # React OODT File Manager Plugin Sample
 
----
-> :warning: Not Official!
----
 
 ## Requirements
 
@@ -14,7 +11,11 @@
 **Using NPM:**
 
 Since this Plugin is not officially published yet please follow below steps for local testing.
-
+1. Install Node Modules for web pack dependencies.
+    ```
+    npm install
+    ```
+    
 1. In the root of your NPM package, do this to build.
     ```
     npm run build
@@ -57,3 +58,7 @@ export default MyApp;
 #### props
 
 - `productId`: Product ID key (eg.: `ce4380c5-d0d2-11e8-89ca-121c29fc9f21`).
+
+## Contributing
+
+Developers can add New Components (eg: Product, ProductList...) by following the directory structure and export them accordingly in index.js files.
