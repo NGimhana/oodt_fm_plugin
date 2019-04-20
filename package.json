@@ -5,7 +5,7 @@
   "main": "dist/build.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brenopolanski/react-oodt-plugin-sample.git"
+    "url": "https://github.com/NGimhana/oodt_fm_plugin"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
