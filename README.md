@@ -29,9 +29,9 @@ Since this Plugin is not officially published yet please follow below steps for 
     npm link
     ```
     
-4. Local NPM Package installation. Use this command in relevant React project directory.
+4. Local NPM Package installation. Use this command in relevant React project directory. This will link global node_module plugin directory to project's local node_modules directory.
     ```
-    npm install oodt_fm_plugin_sample
+    npm link oodt_fm_plugin_sample
     ```    
 ## Usage
 
